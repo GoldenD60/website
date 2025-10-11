@@ -1,0 +1,1 @@
+import"./main-GhEP1Cw0.js";/* empty css             */document.querySelectorAll(".card").forEach(a=>{const e=a.getElementsByTagName("audio")[0];a.addEventListener("mouseenter",()=>{e.playbackRate=1,e.play()}),a.addEventListener("mouseleave",()=>{e.playbackRate=0,e.currentTime=0})});

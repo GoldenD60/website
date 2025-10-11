@@ -1,0 +1,1 @@
+.project-block{display:flex;gap:50px}.project-block .text p{text-align:justify;font-size:24px}.project-block .figure .image{object-fit:cover;border:1px solid #444;border-radius:8px}.project-block .figure .caption{font-style:italic;text-align:center}.project-block .figure{display:flex;flex-direction:column;justify-content:center}
