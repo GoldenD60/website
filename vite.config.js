@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         index: 'index.html',
         music: 'music.html',
+        minecraft: 'minecraft.html',
         youtube: 'youtube.html',
         programming: 'programming.html'
       }
