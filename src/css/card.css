@@ -1,0 +1,44 @@
+.card-table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.card {
+  position: relative;
+  background: #2b3240;
+  border: 1px solid #191E25;
+  border-radius: 15px;
+  padding: 32px;
+  flex: 1;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(0.98);
+}
+
+.card > p, a, h3 {
+  position: relative;
+  z-index: 1;
+}
+
+.card p {
+  text-align: left;
+  min-height: 150px;
+}
+
+.card a {
+  display: block;
+  font-weight: 500;
+}
+
+.card .noisy::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

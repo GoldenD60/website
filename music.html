@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="media/profile.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>GoldenD60 - Music</title>
+  </head>
+  <body style="background:#111;">
+    <div id="loading-screen" style="position:fixed;backdrop-filter:blur(100px);opacity:0;top:0;left:0;right:0;bottom:0;z-index:1000;display:flex;align-items:center;justify-content:center">
+      <div id="load-icon" style="margin:0;border-radius:100%;display:flex;padding:4px">
+        <img src="/media/profile.jpg" alt="Profile Picture" draggable="false" width=100 style="border-radius:100%" />
+      </div>
+    </div>
+    <div id="root" class="loading" style="overflow:hidden;opacity:0">
+      <div class="main-content">
+        <header>
+          <a class="profile-button" href="/"><img src="/media/profile.jpg" alt="Profile Picture" draggable="false" width=50 /></a>
+          <input type="checkbox" name="menu-button" id="menu-button__toggle">
+          <div class="menu">
+            <label for="menu-button__toggle" class="menu-button">
+              <div class="hamburger"></div>
+            </label>
+            <div class="menu-nav">
+              <a href="/">Home</a>
+              <hr>
+              <a href="/youtube">Content Creation</a>
+              <hr>
+              <a href="/music">Music Production</a>
+              <hr>
+              <a href="/minecraft">Minecraft Server</a>
+              <hr>
+              <a href="/programming">Programming</a>
+            </div>
+          </div>
+        </header>
+        <section class="header-section">
+          <img src="/media/hyperduck.png" alt="Music Banner" draggable="false" class="banner" />
+          <div class="gradient-overlay noisy"></div>
+          <div class="content">
+            <h1 id="header1" class="montserrat black">SPEAKING</h1>
+            <h1 id="header2" class="montserrat black">VOLUMES.</h1>
+            <p id="description" class="bio">
+              I’m a 15-year-old independent electronic music producer blending Dubstep, Future Bass, Electro Pop, and other electronic genres to create immersive soundscapes that fit any mood.
+              Inspired by artists like oomiee, Levi Niha, and AGST, my music explores a wide spectrum of emotions, ranging from euphoric highs to melancholic depths.
+              I’ve been producing since I was 11, shaping a signature sound built on powerful basslines, distorted vocals, and cinematic atmospheres.
+              Every track I release is fully self-produced, reflecting my passion for sound design and storytelling. Even as a dedicated hobbyist, I’m constantly pushing boundaries, chasing new ways to craft tracks that resonate with people on a personal level.
+              Whether you’re looking for energy, introspection, or just something to vibe to, I aim to deliver music that sticks with you long after the last note.
+            </p>
+          </div>
+        </section>
+        <section class="content-section noisy">
+          <div class="noisy"></div>
+          <div class="content">
+            <h2 class="montserrat black observe observe-slide-up">LATEST MUSIC</h2>
+            <br /><br />
+            <div class="card-table observe observe-slide-right">
+              <div class="card music-card shadow radial-background">
+                <audio src="/music/Midnight Summers.mp3"></audio>
+                <div class="noisy"></div>
+                <img src="/media/covers/midnight_summers.webp" alt="Midnight Summers Album Cover">
+                <div class="card-content">
+                  <h3>Midnight Summers</h3>
+                  <p>
+                    Studying, sleeping or working? Midnight Summers is a chill, lo-fi track that blends smooth beats with dreamy sounds to create a relaxing atmosphere.
+                    Perfect for unwinding or adding a laid-back vibe to any moment, its soothing soundscape helps bring peace and reflection into mind.
+                  </p>
+                  <div class="music-links">
+                    <a href="https://open.spotify.com/album/3xMx5FGqt1TalkVyKBkxQR">
+                      <i class="fa-brands fa-spotify fa-lg"></i>
+                    </a>
+                    <a href="#" style="display: none;">
+                      <i class="fa-brands fa-apple fa-lg"></i>
+                    </a>
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_mfFaIuwp3tYC31Ms3AWfZDLHrac3e1pVM">
+                      <i class="fa-brands fa-square-youtube fa-lg"></i>
+                    </a>
+                    <a href="https://music.amazon.co.uk/albums/B0FVJFS2YK">
+                      <i class="fa-brands fa-amazon fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card music-card shadow radial-background">
+                <audio src="/music/Hyperduck.mp3"></audio>
+                <div class="noisy"></div>
+                <div class="play-cover">
+                  <img src="/media/hyperduck.png" alt="Hyperduck Album Cover">
+                </div>
+                <div class="card-content">
+                  <h3>Hyperduck</h3>
+                  <p>
+                    Hyperduck is an euphoric Future Bass track released on August 14th, 2025.
+                    Bursting with uplifting melodies, emotional depth, and contagious energy, it captures both joy and nostalgia in a way that listeners can’t help but replay.
+                  </p>
+                  <div class="music-links">
+                    <a href="https://open.spotify.com/track/0pO3ANElCqTdbgJqqFTPrw">
+                      <i class="fa-brands fa-spotify fa-lg"></i>
+                    </a>
+                    <a href="https://music.apple.com/us/song/hyperduck/1833391205">
+                      <i class="fa-brands fa-apple fa-lg"></i>
+                    </a>
+                    <a href="https://music.youtube.com/watch?v=CQ_oGzVLqKU">
+                      <i class="fa-brands fa-square-youtube fa-lg"></i>
+                    </a>
+                    <a href="https://music.amazon.co.uk/tracks/B0FMDDGZ3P">
+                      <i class="fa-brands fa-amazon fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card music-card shadow radial-background">
+                <audio src="/music/Nightlight.mp3"></audio>
+                <div class="noisy"></div>
+                <img src="/media/covers/nightlight.webp" alt="Nightlight Album Cover">
+                <div class="card-content">
+                  <h3>Nightlight</h3>
+                  <p>
+                    Nightlight drifts between Chillstep, Future Bass, and Lo-Fi, delivering a relaxing beat that feels both soothing and cinematic.
+                    With mellow melodies and gentle textures, it creates the perfect backdrop for unwinding or adding atmosphere to almost any video.
+                  </p>
+                  <div class="music-links">
+                    <a href="https://open.spotify.com/track/6XujSCPamWuVBFVpxLeClu">
+                      <i class="fa-brands fa-spotify fa-lg"></i>
+                    </a>
+                    <a href="https://music.apple.com/us/song/nightlight/1830440961">
+                      <i class="fa-brands fa-apple fa-lg"></i>
+                    </a>
+                    <a href="https://music.youtube.com/watch?v=E2P1BdyVzyY">
+                      <i class="fa-brands fa-square-youtube fa-lg"></i>
+                    </a>
+                    <a href="https://music.amazon.co.uk/tracks/B0FKQ53W7N">
+                      <i class="fa-brands fa-amazon fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card music-card shadow radial-background">
+                <audio src="/music/Marshmallows.mp3"></audio>
+                <div class="noisy"></div>
+                <img src="/media/covers/marshmallows.webp" alt="Marshmallows Album Cover">
+                <div class="card-content">
+                  <h3>Marshmallows</h3>
+                  <p>
+                    Marshmallows is an upbeat, fast-paced future bass track bursting with energy and color.
+                    With playful melodies and driving rhythms, it captures a carefree, feel-good vibe that lifts the mood instantly.
+                  </p>
+                  <div class="music-links">
+                    <a href="https://open.spotify.com/track/4Idh04cfOy4PUKGi5WqQVn">
+                      <i class="fa-brands fa-spotify fa-lg"></i>
+                    </a>
+                    <a href="https://music.apple.com/us/song/marshmallows/1826389227">
+                      <i class="fa-brands fa-apple fa-lg"></i>
+                    </a>
+                    <a href="https://music.youtube.com/watch?v=E2P1BdyVzyY">
+                      <i class="fa-brands fa-square-youtube fa-lg"></i>
+                    </a>
+                    <a href="https://music.amazon.co.uk/tracks/B0FHF93JV4">
+                      <i class="fa-brands fa-amazon fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br /><br />
+            <br /><br />
+            <h2 class="montserrat black observe observe-slide-up">PAST MUSIC</h2>
+            <br /><br />
+            <div class="card-table observe observe-slide-right">
+              <div class="card music-card shadow radial-background">
+                <audio src="/music/Eclipse.mp3"></audio>
+                <div class="noisy"></div>
+                <img src="/media/covers/silveris.webp" alt="Silveris Album Cover">
+                <div class="card-content">
+                  <h3>Silveris</h3>
+                  <p>
+                    Silveris is a five-track collection that captures my full transformation as a producer, moving from energetic future bass into vibrant electro pop.
+                    Each track reflects a different stage of growth, blending catchy melodies with evolving styles to showcase how my sound has matured and expanded.
+                  </p>
+                  <div class="music-links">
+                    <a href="https://open.spotify.com/album/1scaTWszFSsaFvSJcXmkR0">
+                      <i class="fa-brands fa-spotify fa-lg"></i>
+                    </a>
+                    <a href="https://music.apple.com/us/album/silveris-ep/1773861899">
+                      <i class="fa-brands fa-apple fa-lg"></i>
+                    </a>
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_mX2EMOmzPqjjbVv0UlhFAjT0JDEINCz08">
+                      <i class="fa-brands fa-square-youtube fa-lg"></i>
+                    </a>
+                    <a href="https://music.amazon.co.uk/albums/B0DJYR43VT">
+                      <i class="fa-brands fa-amazon fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card music-card shadow radial-background">
+                <audio src="/music/Iridescent.mp3"></audio>
+                <div class="noisy"></div>
+                <img src="/media/covers/iridescent.webp" alt="Iridescent Album Cover">
+                <div class="card-content">
+                  <h3>Iridescent</h3>
+                  <p>
+                    Iridescent is a fast, upbeat future bass track that quickly became a fan favorite.
+                    With colorful melodies and infectious energy, it shines through with its vibrant sound and undeniable danceability.
+                  </p>
+                  <div class="music-links">
+                    <a href="https://open.spotify.com/track/2ilCcY4K6sjB4u5NbsXp7x">
+                      <i class="fa-brands fa-spotify fa-lg"></i>
+                    </a>
+                    <a href="https://music.apple.com/us/song/iridescent/1763519475">
+                      <i class="fa-brands fa-apple fa-lg"></i>
+                    </a>
+                    <a href="https://music.youtube.com/watch?v=i-UEWVBXmjM">
+                      <i class="fa-brands fa-square-youtube fa-lg"></i>
+                    </a>
+                    <a href="https://music.amazon.co.uk/tracks/B0DDCLZM5W">
+                      <i class="fa-brands fa-amazon fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card music-card shadow radial-background">
+                <audio src="/music/In The FLAMES.mp3"></audio>
+                <div class="noisy"></div>
+                <img src="/media/covers/in_the_flames.webp" alt="In The FLAMES Album Cover">
+                <div class="card-content">
+                  <h3>In The FLAMES</h3>
+                  <p>
+                    In The FLAMES is a dark, driving drum & bass track built on heavy rhythms, deep synths, and an eerie atmosphere.
+                    Its haunting energy creates a cinematic feel, pulling listeners into a tense and immersive soundscape that lingers long after it ends.
+                  </p>
+                  <div class="music-links">
+                    <a href="https://open.spotify.com/track/4rQ7NiQbIulKPLVVfTFSv0">
+                      <i class="fa-brands fa-spotify fa-lg"></i>
+                    </a>
+                    <a href="https://music.apple.com/us/song/in-the-flames/1753064464">
+                      <i class="fa-brands fa-apple fa-lg"></i>
+                    </a>
+                    <a href="https://music.youtube.com/watch?v=nd1QZLUP9cQ">
+                      <i class="fa-brands fa-square-youtube fa-lg"></i>
+                    </a>
+                    <a href="https://music.amazon.co.uk/tracks/B0D7F86VPY">
+                      <i class="fa-brands fa-amazon fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card music-card shadow radial-background">
+                <audio src="/music/Leap.mp3"></audio>
+                <div class="noisy"></div>
+                <img src="/media/covers/leap.webp" alt="Leap Album Cover">
+                <div class="card-content">
+                  <h3>Leap</h3>
+                  <p>
+                    Leap is my debut release, a two-track single full of upbeat, video game–style energy.
+                    With bright synths and playful melodies, it captures the excitement of taking my very first step into music production.
+                  </p>
+                  <div class="music-links">
+                    <a href="https://open.spotify.com/album/4tjuSeAPLrLiBQbORk1yIV">
+                      <i class="fa-brands fa-spotify fa-lg"></i>
+                    </a>
+                    <a href="https://music.apple.com/us/album/leap-remastered-remastered-single/1745945419">
+                      <i class="fa-brands fa-apple fa-lg"></i>
+                    </a>
+                    <a href="https://music.youtube.com/playlist?list=OLAK5uy_ngtg7Aq9f4PfeKBvVyl1etN7NLtpsc0q4">
+                      <i class="fa-brands fa-square-youtube fa-lg"></i>
+                    </a>
+                    <a href="https://music.amazon.co.uk/albums/B0D3JJCF6L">
+                      <i class="fa-brands fa-amazon fa-lg"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="observe observe-fade">
+        <footer>
+          Copyright © 2025 David Skillman. All rights reserved.
+          <div class="footer-links">
+            <span>Contact (for business): <a href="mailto:business@goldend60.net">business@goldend60.net</a> | </span>
+            <a href="https://www.youtube.com/@GoldenD60?sub_confirmation=1">
+              <i class="fa-brands fa-youtube fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com/goldendsixty/">
+              <i class="fa-brands fa-instagram fa-lg"></i>
+            </a>
+            <a href="https://www.facebook.com/goldendsixty/">
+              <i class="fa-brands fa-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.twitch.tv/goldend60">
+              <i class="fa-brands fa-twitch fa-lg"></i>
+            </a>
+            <span> | </span>
+            <a href="https://open.spotify.com/artist/2BHucjro5Yaq4WkrlgbPIM">
+              <i class="fa-brands fa-spotify fa-lg"></i>
+            </a>
+            <a href="https://music.apple.com/us/artist/goldend60/1745162803">
+              <i class="fa-brands fa-apple fa-lg"></i>
+            </a>
+            <a href="https://music.youtube.com/channel/UCGg0wca2ma0dS0--Eed5HlQ">
+              <i class="fa-brands fa-square-youtube fa-lg"></i>
+            </a>
+            <a href="https://music.amazon.co.uk/artists/B0D3JHNQRX/goldend60">
+              <i class="fa-brands fa-amazon fa-lg"></i>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script type="module" src="/src/js/main.js"></script>
+    <script type="module" src="/src/js/music.js"></script>
+  </body>
+</html>

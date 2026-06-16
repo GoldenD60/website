@@ -1,0 +1,22 @@
+.scrolling-text {
+  position: relative;
+  z-index: 200;
+  top: 12px;
+  overflow: hidden;
+}
+
+.scrolling-text > div {
+  white-space: nowrap;
+  width: max-content;
+  font-size: 20px;
+  animation: scrolling-text 30s linear infinite;
+}
+
+@keyframes scrolling-text {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
