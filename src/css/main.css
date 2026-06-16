@@ -247,6 +247,7 @@ footer {
   pointer-events: all;
   opacity: 1;
   transform: translateY(0);
+  transition: 0.2s ease;
 }
 
 .menu-nav {
@@ -260,7 +261,6 @@ footer {
   color: black;
   opacity: 0;
   transform: translateY(-8px);
-  transition: 0.2s ease;
 }
 
 .menu-nav a {

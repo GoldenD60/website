@@ -11,8 +11,7 @@ export default defineConfig({
         index: 'index.html',
         music: 'music.html',
         youtube: 'youtube.html',
-        programming: 'programming.html',
-        minecraft: 'minecraft.html'
+        programming: 'programming.html'
       }
     }
   }

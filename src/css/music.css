@@ -1,5 +1,7 @@
-.music-card {
-    padding: 0 !important;
+.card.music-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
 }
 
 .music-card p {
@@ -7,7 +9,15 @@
 }
 
 .music-card .card-content {
-    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    flex: 1;
+}
+
+.music-card .card-content h3 {
+    flex: 1;
+    padding-bottom: 128px;
 }
 
 .music-card img {
